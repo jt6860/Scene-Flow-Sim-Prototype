@@ -27,7 +27,7 @@ public class UIMainScene : MonoBehaviour
 
     private void Awake()
     {
-        BackToMenuButton = GameObject.Find("BackToMenuButton").GetComponent<Button>();
+        BackToMenuButton = GameObject.Find("Back To Menu Button").GetComponent<Button>();
         BackToMenuButton.onClick.AddListener(BackToMenu);
         Instance = this;
         InfoPopup.gameObject.SetActive(false);
